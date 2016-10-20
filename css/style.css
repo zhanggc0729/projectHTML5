@@ -1,7 +1,44 @@
-* {
-    font-family: "Microsoft YaHei" ! important;
-}
 
+
+.display-none {
+    display: none;
+}
+/* Sets up the Base 10 stuff */
+body {
+    padding: 0;
+    font-family: "Microsoft YaHei" ! important;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    color: #222222;
+}
+p,
+a,
+nav,
+ul,
+li,
+span,
+button,
+div,
+body,
+header,
+section,
+footer,
+article,
+strong {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+p {
+    line-height: 22px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', Arial, sans-serif;
+}
 /* ==========================================================================
 Browse Happy prompt
 ========================================================================== */
@@ -19,7 +56,7 @@ Browse Happy prompt
 */
 
 header {
-    display: block;
+    display: none;
     padding: 20px 0 0 0;
     background-color: #fff;
     -webkit-box-shadow:0 0 9px -5px #000;
@@ -125,7 +162,7 @@ header  .navbar-nav > li > a:focus {
 .dropdown-menu>li>a:hover{background: #fff;color:#008ee4;}
 /*
 ========================================================================
-# - 3.2 -  register-login Menu styles
+# - 2.3 -  register-login Menu styles
 ------------------------------------------------------------------------
 */
 .register-login-div{
@@ -150,4 +187,115 @@ header  .navbar-nav > li > a:focus {
     color: #FFF;
     background: #008ee4;
 
+}
+/*
+========================================================================
+# - 3.1 - 接入第一个页面 styles
+------------------------------------------------------------------------
+*/
+    /*@import "variable.less";*/
+    .lz-headertop {
+        background: #262626 url(../images/top-bg.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .lz-heading {
+        margin-top: 60px;
+    }
+    .lz-main-heading,
+    .lz-main-heading > span {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 98px;
+        text-align: center;
+        color: #fff;
+    }
+    .lz-main-heading > span.lz-brand {
+        color: #3498db;
+    }
+    .cblz-footer-content .lz-brand {
+        color: #3498db !important;
+    }
+    .lz-sub-heading {
+        margin-top: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+    }
+    #subscribe {
+        height: 70px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        font-size: 35px;
+        color: #3498db;
+        padding-left: 20px;
+    }
+    input#subscribe::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: #3498db;
+    }
+    input#subscribe::-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #3498db;
+        opacity: 1;
+    }
+    input#subscribe::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #3498db;
+        opacity: 1;
+    }
+    input#subscribe::ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: #3498db;
+    }
+    ::-webkit-input-placeholder {
+        color: #3498db;
+    }
+    .lz-subscribe {
+        margin-top: 138px;
+        text-align: center;
+    }
+    .lz-submit-btn {
+        background-color: #3498db;
+        background-image: none;
+        background-repeat: repeat-x;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        color: #ffffff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        border-radius: none;
+        height: 70px;
+        font-family: 'Lobster', cursive;
+        font-weight: lighter;
+        font-size: 35px;
+        color: #fff;
+    }
+    .lz-submit-btn:hover {
+        background-color: #3498db;
+        background-image: none;
+        background-repeat: repeat-x;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        border-radius: none;
+    }
+    #carousel-reviews .carousel-control.left,
+    .carousel-control.right {
+        right: 18px;
+    }
+.fast-insert{
+
+}
+.fast-insert a{
+    display: inline-block;
+    color :#fff;
+    margin-top:50px;
+    padding: 0px 0 50px 0;
+    background: url("../images/drop-down.png") no-repeat bottom  center ;
+}
+.fast-insert a:hover{
+    background: url("../images/drop-down-086176.png") no-repeat bottom  center ;
 }

@@ -66,7 +66,7 @@
                     <!-- Collect the nav toggling -->
                     <div class="collapse navbar-collapse navbar-example" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="#intro">首页</a></li>
+                            <li><a href="#lz-headertop">首页</a></li>
                             <li><a href="#feature"  class="dropdown-toggle" data-toggle="dropdown">IM通讯云<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">PHP</a></li>
@@ -96,39 +96,47 @@
 </header>
 
 <!-- banner start -->
-<section id="banner" class="banner-carousel">
-    <div class="trans-bg">
-        <div id="background-carousel">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item item-no1 active"></div>
-                    <div class="item item-no2"></div>
-                    <div class="item item-no3"></div>
-                </div>
-            </div>
-        </div>
-        <div class="content-wrapper">
+<section id="lz-headertop" class="lz-headertop" style="min-height: 647px;">
+        <div class="cbx-header-inner" style="min-height: 647px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <h2><a href="" class="lg-logo">GRAPE</a></h2> <!-- .lg-logo -->
-                        <h3 class="banner-title">Present your beautiful app with GRAPE</h3>
-                        <ul class="app">
-                            <li><a href=""><i class="fa fa-apple"></i></a></li>
-                            <li><a href=""><i class="fa fa-android"></i></a></li>
-                            <li><a href=""><i class="fa fa-windows"></i></a></li>
-                        </ul>
-                        <div class="download-block text-center">
-                            <a href="" class="btn-download">Download</a><a href="" class="btn-download">Take a tour</a>
+                    <div class="col-xs-12">
+                        <div class="lz-heading text-center">
+                            <h1 class="lz-main-heading  wow bounceIn animated "><img
+                                    src="images/logo.png" width="200px" height="200px" /></h1>
+                            <h1 class="lz-sub-heading wow slideInRight">专业、免费、稳定的云通讯服务</h1>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- /.trans-bg -->
+                </div> <!-- //ROW headertop-->
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6  ">
+                        <div class="lz-subscribe wow slideInRight animated">
+                            <form class="subscribe-form cbx-subscribe-form" role="form">
+                                <div class="input-group cbx-input-group">
+                                    <input class="lz-input form-control" type="text" id="subscribe" placeholder="Enter Your message" required="required">
+                                    <span class="input-group-btn">
+										<button class="btn lz-submit-btn"
+                                                type="button ">快速接入</button>
+										</span>
+                                </div><!-- /input-group -->
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- //ROW -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lz-socialnetwork wow slideInLeft animated">
+                           <div class="fast-insert text-center" ><a href="">快速接入</a></div>
+                        </div>
+                    </div>
+                </div><!-- //ROW -->
+            </div> <!-- // Header CONTAINER -->
+        </div> <!-- //HEADER inner -->
+    </div> <!-- //HEADER TOP -->
 </section>
 <!-- banner end -->
-
+<section style="height: 800px;"></section>
 
 <!--  ####### site script content here ######## -->
 
@@ -144,7 +152,7 @@
 <script type="text/javascript" src="js/grid.js"></script>
 
 <!-- wow effect plugin -->
-<!--<script type="text/javascript" src="js/wow.min.js"></script>-->
+<script type="text/javascript" src="js/wow.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.stellar.js"></script>
 
@@ -159,6 +167,8 @@
 <!-- Shuffle.min js -->
 <script src="js/jquery.shuffle.min.js"></script>
 
+
+<script type="text/javascript" src="js/main.js"></script>
 <!-- LZ Custom JS  -->
 <!-- <script type="text/javascript" src="js/lz-custom.js"></script>-->
 </body>
