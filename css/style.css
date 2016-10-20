@@ -1,0 +1,153 @@
+* {
+    font-family: "Microsoft YaHei" ! important;
+}
+
+/* ==========================================================================
+Browse Happy prompt
+========================================================================== */
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*
+========================================================================
+# 2 - Header styles
+------------------------------------------------------------------------
+*/
+
+header {
+    display: block;
+    padding: 20px 0 0 0;
+    background-color: #fff;
+    -webkit-box-shadow:0 0 9px -5px #000;
+    -moz-box-shadow:0 0 9px -5px #000;
+    box-shadow:0 0 9px -5px #000;
+}
+header  {
+    background-color: #fff;
+    border-color: transparent;
+}
+header  .navbar-toggle {
+    border-color: #00a7dd;
+    border: 0;
+    border-radius: 2px;
+    margin: 0;
+}
+header  .navbar-toggle .icon-bar {
+    width: 30px;
+    height: 3px;
+}
+header  .navbar-toggle:hover,
+header  .navbar-toggle:focus {
+    background: transparent;
+}
+header  .navbar-toggle .icon-bar {
+    background: #00a7dd;
+}
+header .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+header ul > li  {
+    margin-bottom: 0px;
+}
+header  .navbar-nav > .current > a { color:#666666 }
+header  .navbar-nav > .current > a:hover,
+header  .navbar-nav > .current > a:focus {
+    background-color: #FFF;
+    color: #008ee4;
+}
+@media screen and (min-width: 1200px)
+header .nav > li > a {
+    font-size: 19px;
+}
+/*
+========================================================================
+# - 2.1 - Menu styles
+------------------------------------------------------------------------
+*/
+header h1 {
+    margin: 0;
+
+}
+header .nav > li > a {
+    font-family: 'Dosis', sans-serif;
+    text-transform: capitalize;
+    padding: 12px 43px;
+    border-radius: 2px;
+}
+
+header  .navbar-nav > li > a {
+    color: #666;
+}
+
+header  .navbar-nav > .active > a,
+header  .navbar-nav > .active > a:hover,
+header  .navbar-nav > .active > a:focus {
+    background-color: #fff;
+    color: #008ee4;
+}
+header  .navbar-nav > li > a:hover,
+header  .navbar-nav > li > a:focus {
+    background-color: #fff;
+    color: #008ee4;
+    border:none;
+}
+/*
+========================================================================
+# - 2.2 - down Menu styles
+------------------------------------------------------------------------
+*/
+.navbar .dropdown-menu {
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.navbar-nav>li> .dropdown-menu{
+    margin-top: 2px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.dropdown-menu{
+    min-width: 152px;
+    margin-top: 2px;
+    border: 0px #fff solid;
+}
+
+.dropdown-menu>li>a {
+    text-align: center;
+    }
+.dropdown-menu>li>a:hover{background: #fff;color:#008ee4;}
+/*
+========================================================================
+# - 3.2 -  register-login Menu styles
+------------------------------------------------------------------------
+*/
+.register-login-div{
+    float:right;
+}
+.register-login li{
+    list-style-type:none;
+    float: left;
+    padding:10px 10px;
+}
+.register-login li a{
+    border:1px #008ee4 solid;;
+    padding:5px 8px;
+    color:#008ee4;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all ease-in .4s;
+    -webkit-transition: all ease-in .4s;
+}
+.register-login li a:hover{
+
+    color: #FFF;
+    background: #008ee4;
+
+}

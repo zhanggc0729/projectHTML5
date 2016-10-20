@@ -1,0 +1,53 @@
+/*
+USE
+ .TestClass {
+ .hex-to-rgba ((@brand-color, .6);
+  color: @rgba;
+}
+
+*/
+/*
+.TestClass {
+  .bg-rgba(@brand-color, .9);
+}
+
+*/
+/*
+.font-size(@sizeValue) {
+  @remValue: @sizeValue;
+  @pxValue: (@sizeValue * 10);
+  font-size: ~"@{pxValue}px";
+  font-size: ~"@{remValue}rem";
+
+}
+*/
+/*
+.font-size(@font-size){
+  @pxFontValue: (@font-size / 10);
+  @pxLineValue: (@font-size / 10 * 1.5);
+  font-size: @font-size * 1px;
+  line-height: @font-size * 1.5 * 1px;
+  font-size: ~"@{pxFontValue}rem";
+  line-height: ~"@{pxLineValue}rem";
+}*/
+/* ==========================================================================
+        Style Switcher CSS For  Color OverWrite
+  ========================================================================== */
+
+#cbx-team .cbx-font-side{
+    border-color: #f5740a;
+}
+a {
+    color:#666666;
+    text-decoration: none;
+}
+a:hover {}
+a:focus {
+    color: #428bca;
+    text-decoration: none;
+}
+
+/* NEW CODE END*/
+/* ==========================================================================
+        Style Switcher CSS For  Color OverWrite END
+  ========================================================================== */
