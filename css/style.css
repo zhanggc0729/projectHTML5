@@ -299,3 +299,62 @@ header  .navbar-nav > li > a:focus {
 .fast-insert a:hover{
     background: url("../images/drop-down-086176.png") no-repeat bottom  center ;
 }
+    /*
+    ========================================================================
+    # - 4.1 - banner1 styles
+    ------------------------------------------------------------------------
+    */
+
+   .banner1-style{
+        background: #249eca  url("../images/banner1-bg.png")  center no-repeat ;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+    }
+.bannar1-left{
+    padding: 25% 0 0 30%;
+    color:#fff;
+}
+
+.bannar1-right{
+    margin: 15% 0 0 0;
+}
+.banner2-style{
+    padding :30px 0  0 0 ;
+}
+.banner2-top{
+    text-align: center;
+    background: url("../images/banner2-1bg.png") no-repeat center;
+}
+    .app-block {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .app-block:hover .fa {
+        color: #fff;
+        box-shadow: inset 0px 0px 0px 50px #00a8e0;
+        -webkit-box-shadow: inset 0px 0px 0px 50px #00a8e0;
+        -moz-box-shadow: inset 0px 0px 0px 50px #00a8e0;
+        border: 2px solid transparent;
+    }
+     .fa {
+        display: inline-block;
+        font-size: 32px;
+        margin-bottom: 10px;
+        padding: 22px;
+        color: #00a8e0;
+        border: 2px solid #00a8e0;
+        width: 105px;
+        height: 95px;
+        border-radius: 50%;
+        transition:  all ease-in .4s;
+        -webkit-transition: all ease-in .4s;
+        -moz-transition: all ease-in .4s;
+    }
+
+    .weixin:before {
+        content: url("../images/weixinbg.png");
+    }
+
+

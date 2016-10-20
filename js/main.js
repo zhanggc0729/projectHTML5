@@ -4,7 +4,7 @@
 $(window).scroll(function() {
     //if (winWidth > 767) {
     var $scrollHeight = $(window).scrollTop();
-    if ($scrollHeight > 600) {
+    if ($scrollHeight > 300) {
         $('#home').slideDown(400);
     }else{
         $('#home').slideUp(400);
