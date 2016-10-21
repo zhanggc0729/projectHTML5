@@ -324,6 +324,7 @@ header  .navbar-nav > li > a:focus {
     padding :30px 0  0 0 ;
 }
 .banner2-top{
+    margin:10% 0 0 0 ;
     text-align: center;
     background: url("../images/banner2-1bg.png") no-repeat center;
 }
@@ -356,5 +357,118 @@ header  .navbar-nav > li > a:focus {
     .weixin:before {
         content: url("../images/weixinbg.png");
     }
+.kefu:before{
+    content :url("../images/kefu.png")
+}
+.shipin:before{
+    content:url("../images/shipin.png")
+}
+.banner2-row{
+    margin:15% 0 0 0 ;
+}
+.banner3-style{
+    background:   url("../images/banner3-bg.png")  center no-repeat ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner3-fa{
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding: 22px;
+    color: #00a8e0;
+    border: 2px solid #00a8e0;
+    width: 105px;
+    height: 95px;
+    /*border-radius: 50%;*/
+    transition:  all ease-in .4s;
+    -webkit-transition: all ease-in .4s;
+    -moz-transition: all ease-in .4s;
+}
+.banner3-fa-android{
+    color: #a9ce38;
+    border: 2px solid #a9ce38;
+}
+    .banner3-fa-iso{
+        color: #1b80db;
+        border: 2px solid #1b80db;
+    }
+    .banner3-fa-h5{
+        color: #e43617;
+        border: 2px solid #e43617;
+    }
+.android{
+    content :url("../images/andriod.png")
+}
+.iso{
+    content: url("../images/iso.png");
+}
+.h5-style{
+    content: url("../images/h5.png");
+}
+
+.app-block:hover .banner3-fa-android {
+    color: #fff;
+    box-shadow: inset 0px 0px 0px 50px #a9ce38;
+    -webkit-box-shadow: inset 0px 0px 0px 50px #a9ce38;
+    -moz-box-shadow: inset 0px 0px 0px 50px #a9ce38;
+    border: 2px solid transparent;
+}
+    .app-block:hover .banner3-fa-iso {
+        color: #fff;
+        box-shadow: inset 0px 0px 0px 50px #1b80db;
+        -webkit-box-shadow: inset 0px 0px 0px 50px #1b80db;
+        -moz-box-shadow: inset 0px 0px 0px 50px #1b80db;
+        border: 2px solid transparent;
+    }
+    .app-block:hover .banner3-fa-h5 {
+        color: #fff;
+        box-shadow: inset 0px 0px 0px 50px #e43617;
+        -webkit-box-shadow: inset 0px 0px 0px 50px #e43617;
+        -moz-box-shadow: inset 0px 0px 0px 50px #e43617;
+        border: 2px solid transparent;
+    }
+.color-fff{
+    color:#fff;
+}
+    .banner3-row{
+        margin:15% 0 0 0 ;
+    }
+.banner3-top{
+    margin:10% 0 0 0 ;
+    text-align: center;
+    background: url("../images/banner2-1bg.png") no-repeat center;
+    color:#fff;
+}
+.footer-left{
+    padding:5% 0 0 20%
+}
+    .footer-left a{
+        color: #000000;
+    }
+    .footer-left h1{
+        background: url("../images/lianxiwomen1.png") no-repeat center left ;
+        padding:0 0 0 40px; ;
+    }
+    .footer-left h3{
+        padding:0 0 0 70px;
+    }
+    .footer-right{
+        padding:5% 0 0 0;
+
+    }
+    .footer-right a{
+        color: #000000;
+    }
+.footer-right h1{
+    background: url("../images/lianxiwomen.png") no-repeat center left ;
+    padding:0 0 0 40px; ;
+}
+.footer-right h3{
+    padding:0 0 0 70px;
+}
+
 
 
