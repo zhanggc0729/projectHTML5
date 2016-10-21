@@ -8,7 +8,7 @@ body {
     padding: 0;
     font-family: "Microsoft YaHei" ! important;
     margin: 0 auto;
-    background-color: #f1f1f1;
+    background-color: #FFF;
     color: #222222;
 }
 p,
@@ -470,5 +470,78 @@ header  .navbar-nav > li > a:focus {
     padding:0 0 0 70px;
 }
 
+/*
+   ========================================================================
+   # - login page styles
+   ------------------------------------------------------------------------
+   */
+
+.section-login-logo{
+    padding-top: 10%;
+   text-align: center;
+}
+.section-login-logo img{
+    width: 10%;
+    height: 10%;
+}
+
+.section-login-form{
+
+    text-align: center;
+}
+    .section-login-form ul li{
+        padding-top:30px;
+        padding-right: 10%;
+        list-style: none;
+
+    }
+.section-login-form ul li input{
+    width:25%;
+    outline: none;
+    border: 1px #e1e1e1 solid;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    min-width: 100px;
+}
+.section-login-form ul li input:hover{
+    outline:none;
+    border: 1px #1b80db solid;
+}
+.section-login-form ul li span{
+    color:#333;
+    text-align: right;
+    padding-right: 2%;
+    font-weight: 800;
+    display: inline-block;
+    width: 70px;
+}
+.section-login-buttom{
+   text-align: center;
+    padding-left: 30px;
+}
+.section-login-buttom a{
+    background: #1b80db;
+    width: 30%;
+    border-radius: 10px;
+    display: inline-block;
+    height:40px;
+    line-height: 40px;
+    color:#fff;
+    font-weight: 800;
+}
+.section-login-forgot{
+    padding-left:20%;
+}
+.yonghuming{
+    padding-left: 30px;
+    background: url("../images/yonghuming.png") no-repeat left center  ;
+    background-position-x: 5px;
+}
+.mima{
+    padding-left: 30px;
+    background: url("../images/mima.png") no-repeat left center ;
+    background-position-x: 5px;
+}
 
 
