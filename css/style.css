@@ -489,12 +489,12 @@ header  .navbar-nav > li > a:focus {
 
     text-align: center;
 }
-    .section-login-form ul li{
-        padding-top:30px;
-        padding-right: 10%;
-        list-style: none;
+.section-login-form ul li{
+    padding-top:30px;
+    padding-right: 10%;
+    list-style: none;
 
-    }
+}
 .section-login-form ul li input{
     width:25%;
     outline: none;
@@ -543,5 +543,92 @@ header  .navbar-nav > li > a:focus {
     background: url("../images/mima.png") no-repeat left center ;
     background-position-x: 5px;
 }
+.message{
+    padding-left: 30px;
+    background: url("../images/message.png") no-repeat left center ;
+    background-position-x: 5px;
+}
+.mobile{
+    padding-left: 30px;
+    background: url("../images/mobile.png") no-repeat left center ;
+    background-position-x: 5px;
+}
+/*
+   ========================================================================
+   # - register page styles
+   ------------------------------------------------------------------------
+   */
+
+
+
+    .section-register-form{
+
+        text-align: center;
+    }
+    .section-register-form ul li{
+        padding-top:20px;
+        padding-right: 10%;
+        list-style: none;
+
+    }
+    .section-register-form-li>input{
+        width:25%;
+        outline: none;
+        border: 1px #e1e1e1 solid;
+        border-radius: 10px;
+        height: 40px;
+        line-height: 40px;
+        min-width: 100px;
+    }
+   .register-error>input {
+       width:25%;
+       outline: none;
+        border: 1px red solid;
+       border-radius: 10px;
+       height: 40px;
+       line-height: 40px;
+       min-width: 100px;
+    }
+    .register-error span{
+        color:#333;
+        text-align: right;
+        padding-right: 2%;
+        font-weight: 800;
+        display: inline-block;
+        width: 100px;
+    }
+    .section-register-form-li>input:hover{
+        outline:none;
+        border: 1px #1b80db solid;
+    }
+    .section-register-form-li span{
+        color:#333;
+        text-align: right;
+        padding-right: 2%;
+        font-weight: 800;
+        display: inline-block;
+        width: 100px;
+    }
+    .section-register-buttom{
+        text-align: center;
+        padding-left: 30px;
+    }
+    .section-register-buttom a{
+        background: #1b80db;
+        width: 30%;
+        border-radius: 10px;
+        display: inline-block;
+        height:40px;
+        line-height: 40px;
+        color:#fff;
+        font-weight: 800;
+    }
+    .section-register-forgot{
+        padding-left:20%;
+    }
+.error-red{
+    color:red;
+}
+
 
 
