@@ -1,5 +1,4 @@
-
-
+                                                                                                                                    }
 .display-none {
     display: none;
 }
@@ -734,3 +733,175 @@ header  .navbar-nav > li > a:focus {
     height: 40px;
     background:#c9c9c9 ;
 }
+
+    .ininfo-banner1-style{
+        background: #249eca  url("../images/iminfo-bg.png")  center no-repeat ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+.ininfo-banner1-style-right{
+    margin:8% 0 0 0;
+}
+.ininfo-banner1-style-left h1{
+    font-size: 60px;
+}
+.ininfo-banner1-style-left{
+    text-align: center;
+    padding: 30% 0 0 30%;
+    color:#fff;
+}
+.iminfo-banner3-style{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.iminfo-banner3-style span{
+    margin-top:10px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #666666;
+    display: inline-block;
+    border-left: 1px #e1e1e1 solid;
+    border-right: 1px #e1e1e1 solid;
+
+}
+.iminfo-banner3-style span:hover{
+    border-left: 1px #238efa solid;
+    border-right: 1px #238efa solid;
+}
+.imiinfo-banner3-row{
+    padding-left: 20%;
+    padding-top:130px;
+    border-bottom: 1px #e1e1e1 solid;
+}
+.imiinfo-banner3-row-shouji{
+    background: url("../images/shouji-bg.png") no-repeat  center right;
+    width: 187px;
+    height: 302px;
+}
+.imiinfo-banner3-row-shouji-title{
+    padding-top: 40px;
+    color:#fff;
+    padding-bottom: 23px;
+
+}
+.imiinfo-banner3-row-shouji-title-img{
+    padding-bottom:50px;
+    margin-bottom:30px ;
+}
+.imiinfo-banner3-row-font{
+  ;
+    text-align: left;
+}
+.imiinfo-banner3-row-font div{
+    padding-top:19px;
+    font-weight: 900;
+}
+.imiinfo-banner3-row-img{
+    margin-top:10px;
+}   
+.imiinfo-banner3-row-bg1{
+    content: url("../images/bg1.png") ;
+}
+    .imiinfo-banner3-row-bg2{
+        content: url("../images/bg2.png") ;
+    }
+    .imiinfo-banner3-row-bg3{
+        content: url("../images/bg3.png") ;
+    }
+    .imiinfo-banner3-row-bg4{
+        content: url("../images/bg4.png") ;
+    }
+    .imiinfo-banner3-row-bg5{ content: url("../images/bg5.png") ;}
+    .imiinfo-banner3-row-bg6{ content: url("../images/bg6.png") ;}
+    .imiinfo-banner3-row-bg7{ content: url("../images/bg7.png") ;}
+    .imiinfo-banner3-row-bg8{ content: url("../images/bg8.png") ;}
+    .imiinfo-banner3-row-bg9{ content: url("../images/bg9.png") ;}
+    .imiinfo-banner3-row-bg10{ content: url("../images/bg10.png") ;}
+    .imiinfo-banner3-row-bg11{ content: url("../images/bg11.png") ;}
+    .imiinfo-banner3-row-bg12{ content: url("../images/bg12.png") ;}
+    .imiinfo-banner3-row-bg13{ content: url("../images/bg13.png") ;}
+    .imiinfo-banner3-row-bg14{ content: url("../images/bg14.png") ;}
+    .imiinfo-banner3-row-bg15{ content: url("../images/bg15.png") ;}
+    .imiinfo-banner3-row-fa{
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #00a8e0;
+    border: 1px solid #00a8e0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition:  all ease-in .4s;
+    -webkit-transition: all ease-in .4s;
+    -moz-transition: all ease-in .4s;
+}
+.imiinfo-banner3-row-fa:hover{
+    color: #fff;
+    box-shadow: inset 0px 0px 0px 50px #a7d1fd;
+    -webkit-box-shadow: inset 0px 0px 0px 50px #a7d1fd;
+    -moz-box-shadow: inset 0px 0px 0px 50px #a7d1fd;
+    border: 2px solid transparent;
+}
+.imiinfo-banner3-row-fa-middel{
+    height: 60px;
+    width: 80px;
+    background: url("../images/bg4.png") center no-repeat;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.imiinfo-banner3-row-bottom{
+    padding:0;
+}
+.imiinfo-banner3-row-bottom h3 {
+    display: inline-block;
+   width:100px;
+}
+.imiinfo-banner3-row-img{
+    height:115px;
+}
+.imiinfo-banner3-row-img ul{
+    padding-left:0px;
+    float: left;
+}
+.imiinfo-banner3-row-img ul li{
+    list-style: none;
+    text-align: left;
+}
+    .imiinfo-banner3-row-img ul li h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    #go-to-top a {
+        text-decoration:none;
+        display: none;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        text-align: center;
+        line-height: 60px;
+        margin: 0 20px 20px;
+        background:url(../images/ui.totop.png) no-repeat left top;
+        width: 51px;
+        height: 51px;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -o-transition: .3s;
+        -ms-transition: .3s;
+    }
+    #go-to-top a:hover {
+        background: #00a7dd;
+        color: #fff;
+        background:url(../images/ui.totop.png) no-repeat left -51px;
+    }
+
+
+

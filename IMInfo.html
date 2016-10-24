@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!-- no-js 是Modernizr.js中的获取的样式标签，用于让不支持html5浏览器支持html5标签-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <!--Edge 模式告诉 IE 以最高级模式渲染文档，也就是任何 IE 版本都以当前版本所支持的最高级标准模式渲染，避免版本升级造成的影响-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fallback For IE 9 [ Media Query and html5 Shim] -->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/lzfavicon.ico" />
+
+    <!-- Vendor(供应商) CSS -->
+    <link rel="stylesheet" href="css/animate.css" media="all"  />
+    <link rel="stylesheet" href="css/grid.css" media="all"  />
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="all" />
+    <link rel="stylesheet" href="css/hover.css" media="all" />
+    <link rel="stylesheet" href="css/cbxnewgridhover.css" media="all" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <!---<link href='http://fonts.googleapis.com/css?family=Open+Sans:300, 400,600,700|Raleway:400,300,500,700,600,900' rel='stylesheet' type='text/css'>--->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" media="all" />
+
+    <link rel="stylesheet" id="lz-switcher-style" href="css/switcher-default.css" media="all" />
+
+    <!-- 该js框架式让 Internet Explorer 6-8 支持 HTML5 的标签-->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browsehappy">We are Extreamly sorry, But the browser you are using is probably from when civilization started. Which is way behind to view this site properly. Please update to a modern browser, At least a real browser. </p>
+<![endif]-->
+<header class="navbar-fixed-top" style="display: block;">
+    <nav class="navbar " role="navigation">
+        <div class="container">
+            <div class="row">
+                <!-- 手机端显示导航条-->
+                <div class="col-sm-3">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1><a class="nav-brand" href="">GRAPE</a></h1>
+                    </div>
+
+                </div>
+                <div class="col-sm-8">
+                    <!-- Collect the nav toggling -->
+                    <div class="collapse navbar-collapse navbar-example" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#lz-headertop">首页</a></li>
+                            <li><a href="#feature"  class="dropdown-toggle" data-toggle="dropdown">IM通讯云<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">PHP</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">MySQL</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#description"  class="dropdown-toggle" data-toggle="dropdown">移动客服<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">PHP</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">MySQL</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#screenshot">快速接入</a></li>
+                        </ul>
+
+                        <div class="register-login-div"><ul class="register-login"><li><a href="login.html">注册</a></li><li><a href=" ">登陆</a></li></ul></div>
+                    </div><!-- /.navbar-collapse -->
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </nav>
+</header>
+
+<!-- banner start -->
+<section  id = "banner1" class="ininfo-banner1-style">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 "><div class="ininfo-banner1-style-left"><h1>IM通讯云</h1><h3>IM要的这儿都有</h3></div></div>
+            <div class="col-sm-6 ininfo-banner1-style-right "><div ><img src="images/iminfo-img-bg.png" width="100%" height="100%"/></div></div>
+        </div>
+    </div>
+</section>
+
+<section class="iminfo-banner3-style" id="iminfo-banner3-style">
+    <div class="container">
+        <div class="row ">
+            <div class="iminfo-banner3-style "  >
+                <div class="col-sm-2"><span onclick="javascript:window.location.href='#iminfo-banner4-style'">聊天场景</span></div>
+                <div class="col-sm-2"><span onclick="javascript:window.location.href='#iminfo-banner5-style'">消息类型</span></div>
+                 <div class="col-sm-3"><span onclick="javascript:window.location.href='#iminfo-banner6-style'">反垃圾机制</span></div>
+                 <div class="col-sm-2"> <span onclick="javascript:window.location.href='#iminfo-banner7-style'">加密数据</span></div>
+                 <div class="col-sm-3"> <span class="iminfo-banner3-style-last" ">更多功能</span></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="iminfo-banner4-style"  id="iminfo-banner4-style">
+    <div class="row imiinfo-banner3-row">
+        <div class="col-sm-4">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-shouji">
+                    <div class="imiinfo-banner3-row-shouji-title">聊天场景</div>
+                    <div class="imiinfo-banner3-row-shouji-title-img"><img src="images/liaotian-bg.png" height="154" width="109"/></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-font">
+                    <div >各种场景随时随地哪儿都能聊</div>
+                    <div >支持单聊、群聊、聊天室、推送、广播多种场景</div>
+                    <div >私密单聊怎能少？</div>
+                    <div >今晚去哪儿嗨？K歌、撸串还是电影？大家都来群里聊，默认支持2000人超大群组</div>
+                    <div >推送广播，精准或全部我来搞定</div>
+                </div>
+                <div class="imiinfo-banner3-row-img">
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg1"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>单聊 </h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg1"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>群聊 </h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg2"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>公众号</h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg3"></i>
+                        </li>
+                        <li>
+                            <h3>推送广播</h3>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="iminfo-banner5-style" id="iminfo-banner5-style">
+    <div class="row imiinfo-banner3-row">
+        <div class="col-sm-4">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-shouji">
+                    <div class="imiinfo-banner3-row-shouji-title">消息类型</div>
+                    <div class="imiinfo-banner3-row-shouji-title-img"><img src="images/liaotian-bg1.png" height="154" width="109"/></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-font">
+                    <div >支持多种消息类型 文字、表情、语音、图片、LBS位置、附件件等消息</div>
+                    <div >消息回执，已发送，已接收，已阅读、对方正在输入，精确感知消息状态</div>
+                    <div >通讯录好友进行通讯</div>
+                    <div >语音通讯当然少不了，想说的话，都能快速、清晰、的传达 沟通都充满乐，支持
+                        </div>
+                    <div >将普通话语音转换成文字显示</div>
+                </div>
+                <div class="imiinfo-banner3-row-img">
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg5"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>文字 </h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg6"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>表情 </h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg7"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>图片</h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg8"></i>
+                        </li>
+                        <li>
+                            <h3>附件</h3>
+                        </li>
+                    </ul>
+                    </div>
+                <div class="imiinfo-banner3-row-img" style="padding-left:50px;">
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg9"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>标签</h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg10"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>公众号</h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg11"></i>
+                        </li>
+                        <li>
+                            <h3>广播</h3>
+                        </li>
+                    </ul>
+                    </div>
+                <div class="imiinfo-banner3-row-img">
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg12"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>群组</h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg13"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>视频</h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg14"></i>
+                            <i class="imiinfo-banner3-row-fa-middel"></i>
+                        </li>
+                        <li>
+                            <h3>小视频</h3>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="imiinfo-banner3-row-fa imiinfo-banner3-row-bg15"></i>
+                        </li>
+                        <li>
+                            <h3>语音</h3>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="iminfo-banner6-style" id="iminfo-banner6-style">
+    <div class="row imiinfo-banner3-row">
+        <div class="col-sm-4">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-shouji">
+                    <div class="imiinfo-banner3-row-shouji-title">反垃圾机制</div>
+                    <div class="imiinfo-banner3-row-shouji-title-img"><img src="images/liaotian-bg2.png" height="154" width="109"/></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-font">
+                    <div >垃圾消息骚扰？别怕我们来帮您搞定</div>
+                    <div >专业技术支持，全网垃圾、敏感词库</div>
+                    <div >关键词模糊匹配技术，实时过滤垃圾消息</div>
+                    <div >同时支持用户自定义词库</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="iminfo-banner7-style" id="iminfo-banner7-style">
+    <div class="row imiinfo-banner3-row">
+        <div class="col-sm-4">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-shouji">
+                    <div class="imiinfo-banner3-row-shouji-title">保密数据</div>
+                    <div class="imiinfo-banner3-row-shouji-title-img"><img src="images/liaotian-bg3.png" height="154" width="109"/></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="app-block wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                <div class="imiinfo-banner3-row-font">
+                    <div >担心数据安全？我们解您后顾之忧  传输全程数据动态加密，
+                       </div>
+                    <div > 同样内容加密结果也不一样 多种方式数据加密，金融业加密级别</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer-style" id="banner4">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 footer-left">
+                <h1><a href="">关于我们</a> </h1>
+                <h3><a href="">公司简介</a> </h3>
+                <h3><a href="">合作伙伴</a> </h3>
+            </div>
+            <div class="col-sm-6 footer-right">
+                <h1><a href="">联系我们</a> </h1>
+                <h3><a href="">技术支持 : 400-400-1234</a> </h3>
+                <h3><a href="">商务合作 : 400-400-1234</a> </h3>
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">rockergjf@163.com</a> </h3>
+                <h3><a href="">渠道加盟热线：400-400-1234</a> </h3>
+
+            </div>
+        </div>
+    </div>
+    <div id="go-to-top">
+        <a href="#banner1"></a>
+    </div>
+</footer>
+<!--  ####### site script content here ######## -->
+
+<script type="text/javascript" src="js/vendor/jquery-1.11.1.min.js"></script>
+<!-- load if our contact form or email subscribe options is used -->
+<script src="js/vendor/jquery.validate.min.js"></script>
+<!-- if load google maps then load this api -->
+<!---<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>--->
+
+<!-- if load portfolio then load this plugin -->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+<script type="text/javascript" src="js/grid.js"></script>
+
+<!-- wow effect plugin -->
+<script type="text/javascript" src="js/wow.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.stellar.js"></script>
+
+<!-- load bootstrap js -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- if use kk countdown plugin then use this plugin -->
+<script type="text/javascript" src="js/kkcountdown.min.js"></script>
+
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+
+<!-- Shuffle.min js -->
+<script src="js/jquery.shuffle.min.js"></script>
+
+
+<script type="text/javascript" src="js/main.js"></script>
+<!-- LZ Custom JS  -->
+<!-- <script type="text/javascript" src="js/lz-custom.js"></script>-->
+</body>
+</html>
