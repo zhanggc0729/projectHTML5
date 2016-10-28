@@ -442,16 +442,17 @@ header  .navbar-nav > li > a:focus {
     color:#fff;
 }
 .footer-left{
-    padding:5% 0 0 20%
+    padding:5% 0 10% 20%
 }
     .footer-left a{
         color: #000000;
     }
-    .footer-left h1{
+    .footer-left h3{
         background: url("../images/lianxiwomen1.png") no-repeat center left ;
         padding:0 0 0 40px; ;
     }
-    .footer-left h3{
+    .footer-left h7{
+        display: block;
         padding:0 0 0 70px;
     }
     .footer-right{
@@ -461,11 +462,12 @@ header  .navbar-nav > li > a:focus {
     .footer-right a{
         color: #000000;
     }
-.footer-right h1{
+.footer-right h3{
     background: url("../images/lianxiwomen.png") no-repeat center left ;
     padding:0 0 0 40px; ;
 }
-.footer-right h3{
+.footer-right h7{
+    display: block;
     padding:0 0 0 70px;
 }
 
