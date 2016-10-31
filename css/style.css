@@ -376,11 +376,11 @@ header  .navbar-nav > li > a:focus {
     display: inline-block;
     font-size: 32px;
     margin-bottom: 10px;
-    padding: 22px;
+    padding: 1px;
     color: #00a8e0;
     border: 2px solid #00a8e0;
-    width: 105px;
-    height: 95px;
+    width: 80px;
+    height: 80px;
     /*border-radius: 50%;*/
     transition:  all ease-in .4s;
     -webkit-transition: all ease-in .4s;
@@ -808,28 +808,28 @@ header  .navbar-nav > li > a:focus {
     margin-top:10px;
 }   
 .imiinfo-banner3-row-bg1{
-    content: url("../images/bg1.png") ;
+    background: url("../images/bg1.png") no-repeat  center ;
 }
     .imiinfo-banner3-row-bg2{
-        content: url("../images/bg2.png") ;
+        background: url("../images/bg2.png") no-repeat  center ;
     }
     .imiinfo-banner3-row-bg3{
-        content: url("../images/bg3.png") ;
+        background: url("../images/bg3.png")  no-repeat  center;
     }
     .imiinfo-banner3-row-bg4{
-        content: url("../images/bg4.png") ;
+        background: url("../images/bg4.png") no-repeat  center;
     }
-    .imiinfo-banner3-row-bg5{ content: url("../images/bg5.png") ;}
-    .imiinfo-banner3-row-bg6{ content: url("../images/bg6.png") ;}
-    .imiinfo-banner3-row-bg7{ content: url("../images/bg7.png") ;}
-    .imiinfo-banner3-row-bg8{ content: url("../images/bg8.png") ;}
-    .imiinfo-banner3-row-bg9{ content: url("../images/bg9.png") ;}
-    .imiinfo-banner3-row-bg10{ content: url("../images/bg10.png") ;}
-    .imiinfo-banner3-row-bg11{ content: url("../images/bg11.png") ;}
-    .imiinfo-banner3-row-bg12{ content: url("../images/bg12.png") ;}
-    .imiinfo-banner3-row-bg13{ content: url("../images/bg13.png") ;}
-    .imiinfo-banner3-row-bg14{ content: url("../images/bg14.png") ;}
-    .imiinfo-banner3-row-bg15{ content: url("../images/bg15.png") ;}
+    .imiinfo-banner3-row-bg5{ background: url("../images/bg5.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg6{ background: url("../images/bg6.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg7{ background: url("../images/bg7.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg8{ background: url("../images/bg8.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg9{ background: url("../images/bg9.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg10{ background: url("../images/bg10.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg11{ background: url("../images/bg11.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg12{ background: url("../images/bg12.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg13{ background: url("../images/bg13.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg14{ background: url("../images/bg14.png") no-repeat  center;}
+    .imiinfo-banner3-row-bg15{ background: url("../images/bg15.png") no-repeat  center;}
     .imiinfo-banner3-row-fa{
     display: inline-block;
     font-size: 32px;
@@ -845,10 +845,10 @@ header  .navbar-nav > li > a:focus {
     -moz-transition: all ease-in .4s;
 }
 .imiinfo-banner3-row-fa:hover{
-    color: #fff;
-    box-shadow: inset 0px 0px 0px 50px #a7d1fd;
-    -webkit-box-shadow: inset 0px 0px 0px 50px #a7d1fd;
-    -moz-box-shadow: inset 0px 0px 0px 50px #a7d1fd;
+    color: #0f69e0;
+    box-shadow: inset 0px 0px 0px 50px rgba(167, 209, 253, 0.01);
+    -webkit-box-shadow: inset 0px 0px 0px 50px rgba(167, 209, 253, 0.02);
+    -moz-box-shadow: inset 0px 0px 0px 50px rgba(167, 209, 253, 0.04);
     border: 2px solid transparent;
 }
 .imiinfo-banner3-row-fa-middel{
