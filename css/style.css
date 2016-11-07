@@ -904,6 +904,27 @@ header  .navbar-nav > li > a:focus {
         color: #fff;
         background:url(../images/ui.totop.png) no-repeat left -51px;
     }
+    .imservicev-banner1-style{
+        background: #249eca  url("../images/service_bg.png")  center no-repeat ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+     .imservice-banner3-row-img ul{
+         padding-left: 12%;
+         padding-right: 10%;
+     }
+    .imiinfo-banner3-row-A_bg5{ background: url("../images/A_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-yuyin{ background: url("../images/yuyin_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-shipin{ background: url("../images/shipin_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-shouji_bg{ background: url("../images/shouji_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-web{ background: url("../images/diannao_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-h5{ background: url("../images/h5_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-xihuan{ background: url("../images/xinhuan_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-chuangjianwenti{ background: url("../images/changjianwenti_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-jiqiren{ background: url("../images/jiqiren_bg.png") no-repeat  center;}
+    .imiinfo-banner3-row-anquan{ background: url("../images/anquan_bg.png") no-repeat  center;}
 
 
 
